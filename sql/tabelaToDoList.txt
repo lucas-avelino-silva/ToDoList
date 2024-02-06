@@ -1,0 +1,7 @@
+Create table TB_TASK
+(
+    ID uniqueidentifier primary key,
+    TITLE varchar(100),
+    DESCRIPTION varchar(500),
+    COMPLETED BIT
+)
